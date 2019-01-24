@@ -3,7 +3,7 @@ FROM debian
 LABEL maintainer="Armin Sczuka <sczuka@hotmail.com>"
 
 RUN apt-get update && \
-  apt-get upgrade -y \
+  apt-get upgrade -y && \
   apt-get install -y -q \
     build-essential ruby \
     python \ 
