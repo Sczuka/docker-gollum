@@ -9,6 +9,7 @@ RUN apt-get update && \
     python \ 
     python-docutils \
     ruby-bundler \
+    ruby-dev \
     libicu-dev \
     libreadline-dev \
     libssl-dev \
